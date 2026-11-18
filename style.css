@@ -1,0 +1,12 @@
+/* ===== Variables ===== */
+:root {
+  --foret: #1f3d2b; /* titres, menu */
+  --mousse: #5f8a45; /* accents, liens */
+  --sol: #4a3b2a; /* texte secondaire */
+  --brume: #eef2ec; /* fond de page */
+  --feuille: #dbe7d3; /* fond des images vides */
+  --fruit: #d9822b; /* mise en avant : invention clé */
+  --encre: #16201a; /* texte */
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+}
