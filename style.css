@@ -105,3 +105,32 @@ h2 {
 .lead {
   font-size: 1.2rem;
 }
+/* Frise : le menu d'accueil montre le trajet de l'eau vers la terre */
+.frise {
+  display: flex;
+  gap: 0.5rem;
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.frise li {
+  flex: 1;
+}
+.frise a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0.9rem 0.8rem;
+  text-decoration: none;
+  color: var(--encre);
+  border-top: 6px solid var(--mousse);
+  background: var(--feuille);
+}
+
+.frise span {
+  font-size: 0.9rem;
+  color: var(--sol);
+}
+.frise a:hover {
+  background: #cddfc3;
+}
