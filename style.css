@@ -10,3 +10,35 @@
   --serif: Georgia, "Times New Roman", serif;
   --sans: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 }
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--encre);
+  background: var(--brume);
+  line-height: 1.6;
+}
+h1,
+h2 {
+  font-family: var(--serif);
+  color: var(--foret);
+  line-height: 1.15;
+}
+a {
+  color: var(--mousse);
+}
+a:focus-visible {
+  outline: 3px solid var(--fruit);
+  outline-offset: 3px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
