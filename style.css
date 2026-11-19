@@ -24,6 +24,13 @@ body {
   background: var(--brume);
   line-height: 1.6;
 }
+body {
+  background-image: url("img src.avif");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  box-sizing :border-box;
+}
 h1,
 h2 {
   font-family: var(--serif);
@@ -143,7 +150,7 @@ h2 {
   list-style: none;
 }
 .frise li {
-  flex: 1;
+  flex: 1;  
 }
 .frise a {
   display: flex;
@@ -163,6 +170,8 @@ h2 {
 .frise a:hover {
   background: #cddfc3;
 } 
+
+
 /* ===== Galerie : l'image domine (≈ 80 %), le texte reste court ===== */
 .galerie {
   display: grid;
